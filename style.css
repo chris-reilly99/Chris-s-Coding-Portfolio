@@ -1,0 +1,193 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    padding: 20px;
+    text-align: left;
+    background-color: #13293d;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+   padding-top: 15px;
+   display: flex;
+   margin-right: 20px;
+   float: right;
+   font-size: 20px;
+   color: white;
+}
+
+.header nav a {
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-image {
+    display: block;
+    margin: auto;
+    height: 700px;
+    width: 95%;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.about-me {
+    display: block;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 95%;
+    background-color: #13293d;
+    color: white;
+    padding: 50px;
+}
+
+.work {
+    display: block;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: auto;
+    max-width: 95%;
+    color: #13293d;
+    padding: 50px;
+    background-color: lightgrey;
+}
+
+.project-card {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.project-card header {
+    padding: 10px;
+    text-align: center;
+}
+
+.project-card img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-imgs {
+    text-align: center;
+}
+
+.resume {
+    display: block;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 95%;
+    background-color: lightgrey;
+    color: #13293d;
+    padding: 50px;
+}
+
+#resumelink {
+    color: white;
+}
+
+.contact {
+    display: block;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 95%;
+    background-color: lightgrey;
+    color:#13293d;
+    padding: 50px;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul#contact-list {
+    list-style: none;
+    padding-top: 20px;
+    font-size: 125%;
+}
+
+ul#contact-list li {
+    display: inline;
+    padding-inline: 20px;
+}
+
+.project-card{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    flex: 0 0 300px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.project-card:hover{
+    box-shadow: 0 0 40px rgba(33,33,33,.2);
+    opacity: 80%;
+}
+
+.navitems:hover{
+    opacity: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .project-card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-card {
+        width: 100%;
+    }    
+}
+
+
+/* add cards, copy from 02-Stu solved CSS from week 2, see if I can also add something to expand header and make nav bar be centered below header when smaller than 929px*/
